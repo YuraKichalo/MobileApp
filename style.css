@@ -546,6 +546,7 @@ ul {
         width: auto;
         height: auto;
         background: none;
+        padding-top: 62px; 
     }
 
     .interface-left-side {
