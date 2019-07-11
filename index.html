@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
     <title>MobileApp</title>
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <a href="#" class="logo">
-                <img src="images/header/LOGO.png" alt="logo">
+            <a href="#" class="logo" target="_blank">
+                <img src="images/header/LOGO.svg" alt="logo">
             </a>
             <div class="header-headings">
                 <h1>
@@ -24,11 +26,11 @@
                     up-to-the-minute information on your team.
                 </p>
                 <div class="download-apps">
-                    <a href="#" class="apps">
-                        <img src="images/header/AppleStore.png" alt="Apple Store">
+                    <a href="#" class="apps" target="_blank">
+                        <img src="images/header/AppleStore.svg" alt="Apple Store">
                     </a>
-                    <a href="#" class="apps">
-                        <img src="images/header/GooglePlay.png" alt="Google Play">
+                    <a href="#" class="apps" target="_blank">
+                        <img src="images/header/GooglePlay.svg" alt="Google Play">
                     </a>
                 </div>
             </div>
@@ -39,10 +41,25 @@
         <div class="first-section-left-side">
             <div class="left-side-wrapper">
                 <div class="screen notifications">
-                    <img src="images/sections_1/Arsenal-Chelsea.png" alt="notifications">
+                    <span class="match-time">Sat, 12:35pm</span>
+                    <div class="match-clubs">
+                        <span>Arsenal vs</span>
+                        <span>Chelsea</span>
+                    </div>
+                    <span class="type-of-match">Friendly Match</span>
+                    <img src="images/sections_1/arsenal.svg" class="arsenal-img" alt="arsenal">
+                    <img src="images/sections_1/chelsea.svg" class="chelsea-img" alt="chelsea">
+                    <div class="checkbox-area">
+                        <form action="#">
+                            <label class="checkbox">
+                                <input type="checkbox" name="notifications">
+                                <span class="checkbox-text">Turn on all match notifications</span>
+                            </label>
+                        </form>
+                    </div>
                 </div>
                 <div class="screen video">
-                    <img src="images/sections_1/Footbal-screen.png" alt="football screen">
+                    <img src="images/sections_1/videoScreen.svg" alt="football screen">
                 </div>
             </div>
         </div>
@@ -64,7 +81,7 @@
                 stay bang-up-to-date with the big football stories from The
                 Guardian publication.
             </p>
-            <a href="#" class="firs-section-link">
+            <a href="#" class="firs-section-link" target="_blank">
                 <span>Learn more</span>
             </a>
         </div>   
@@ -89,7 +106,7 @@
                     If that’s a step too far for you, you can still watch loads of firecracker
                     Premier League action as long as you sign in with a free Guardian iD.
                 </p>
-                <a href="#" class="interface-section-link">
+                <a href="#" class="interface-section-link" target="_blank">
                     <span>Learn more</span>
                 </a>
             </div>
@@ -154,21 +171,67 @@
             </div>
         </div>
     </section>
-
-    <section class="slider"></section>
-
+<!-- ------------------------------------------------------------ -->
+    <section class="feedbacks">
+        <h2>what our users say</h2>
+        <div class="carousel">
+            <div class="carouselItem user1">
+                <h4>Noah Jackson</h4>
+                <p>
+                    I use this app every day and it's a great way
+                    to keep up to date with what's going on in
+                    football. It's a shame it won't rotate into
+                    landscape mode like its main competitor
+                </p>
+            </div>
+            <div class="carouselItem user2">
+                <h4>Darren Wilson</h4>
+                <p>
+                    Good for scores and commentary but the
+                    team lineups have stopped working
+                </p>
+            </div>
+            <div class="carouselItem user3">
+                <h4>Michael Akinuli</h4>
+                <p>
+                    Good for watching the goals and great for
+                    highlights instead of waiting till 10:30 before
+                    you can watch highlights on March of the day
+                    also no need of sky go
+                </p>
+            </div>
+            <div class="carouselItem user4">
+                <h4>Sarah Udoma</h4>
+                <p>
+                    This app has videos for other premier league
+                    teams who play and it also gives me
+                    nofications when my favourite team plays
+                </p>
+            </div>
+            <div class="carouselItem user5">
+                <h4>Yurii Kichalo</h4>
+                <p>
+                    Good for scores and commentary and it
+                    also gives me nofications when my
+                    favourite team plays
+                </p>
+            </div>
+        </div>
+            
+    </section>
+<!-- ------------------------------------------------------------ -->
     <section class="sponsors">
         <div class="container">
             <h2 class='sponsors-heading'>
                 We have been featured in
             </h2>
             <div class="sponsors-list">
-                <img class="sponsors-img" src="images/sponsors_section_6/sports-TV.png" alt="sports-TV">
-                <img class="sponsors-img" src="images/sponsors_section_6/sports.png" alt="sports">
-                <img class="sponsors-img" src="images/sponsors_section_6/nbc-sports-1.png" alt="nbc-sports">
-                <img class="sponsors-img" src="images/sponsors_section_6/designer-technology.png" alt="designer-technology">
-                <img class="sponsors-img" src="images/sponsors_section_6/dn.png" alt="dn">
-                <img class="sponsors-img" src="images/sponsors_section_6/sky-sports-1.png" alt="sky-sports">
+                <img class="sponsors-img" src="images/sponsors_section_6/sportsTV.svg" alt="sports-TV">
+                <img class="sponsors-img" src="images/sponsors_section_6/sports.svg" alt="sports">
+                <img class="sponsors-img" src="images/sponsors_section_6/NBC.svg" alt="nbc-sports">
+                <img class="sponsors-img" src="images/sponsors_section_6/designer.svg" alt="designer-technology">
+                <img class="sponsors-img" src="images/sponsors_section_6/DN.svg" alt="dn">
+                <img class="sponsors-img" src="images/sponsors_section_6/skySports.svg" alt="sky-sports">
             </div>
         </div>
     </section>
@@ -187,11 +250,11 @@
                 now. It’s got all this:
             </p>
             <div class="download-apps">
-                <a href="#" class="apps">
-                    <img src="images/header/AppleStore.png" alt="Apple Store">
+                <a href="#" class="apps" target="_blank">
+                    <img src="images/header/AppleStore.svg" alt="Apple Store">
                 </a>
-                <a href="#" class="apps">
-                    <img src="images/header/GooglePlay.png" alt="Google Play">
+                <a href="#" class="apps" target="_blank">
+                    <img src="images/header/GooglePlay.svg" alt="Google Play">
                 </a>
             </div>
         </div>
@@ -201,36 +264,39 @@
 
     <footer class="footer">
         <div class="container">
-            <a href="#" class="footer_logo">
-                <img src="images/footer/footer_logo.png" alt="logo">
+            <a href="#" class="footer_logo" target="_blank">
+                <img src="images/footer/footerLogo.svg" alt="logo">
             </a>
             <ul class="footer_tools_list">
-                <a href="#">
-                    <li>Download</li>
-                </a>
-                <a href="#">
-                    <li>Support</li>
-                </a>
-                <a href="#">
-                    <li>Developers</li>
-                </a>
-                <a href="#">
-                    <li>Privacy</li>
-                </a>
+                <li>
+                    <a href="#" target="_blank">Download</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Support</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Developers</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Privacy</a>
+                </li>
             </ul>
             <div class="footer_socialMed_list">
-                <a href="#">
-                    <img src="images/footer/twitter 2.png" alt="twitter">
+                <a href="#" target="_blank">
+                    <img src="images/footer/twitter.svg" alt="twitter">
                 </a>
-                <a href="#">
-                    <img src="images/footer/facebook 2.png" alt="facebook">
+                <a href="#" target="_blank">
+                    <img src="images/footer/facebook.svg" alt="facebook">
                 </a>
-                <a href="#">
-                    <img src="images/footer/instagram 2.png" alt="instagram">
+                <a href="#" target="_blank">
+                    <img src="images/footer/instagram.svg" alt="instagram">
                 </a>
             </div>
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

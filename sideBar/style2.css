@@ -1,0 +1,79 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --main-color: #00ADEE;
+    --heading-color: #333333;
+    --tekst-color: #4F4F4F;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.sideBar {
+    max-width: 767px;
+    height: 499px;
+    background-image: url(img/Gradient2.svg), url(img/sideBarGradient.svg), url(img/sideBar.svg);
+    background-repeat: no-repeat;
+    padding: 220px 0 0 58px;
+}
+
+.sideBarContent {
+
+}
+
+.sideBarContent h1 {
+    color: black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    width: 499px;
+}
+
+.sideBarContent p {
+    width: 554px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333;
+    margin-top: 9px;
+}
+
+.sideBarContent a {
+    display: flex;
+    background: #00ADEE;
+    border-radius: 4px;
+    width: 116.56px;
+    height: 35px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    transition: 0.5s ease;
+}
+
+.sideBarContent a:hover {
+    transform: scale(1.1, 1.1);
+    background: white;
+    color: #00ADEE;
+    border: 1px solid #00ADEE;
+}
+
+.sideBarContent a > span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.8642px;
+    line-height: 19px;
+}
