@@ -275,7 +275,6 @@ ul {
 .firs-section-link:hover {
     transform: scale(1.1, 1.1);
     transition: 0.5s ease;
-    color: var(--heading-color);
 }
 
 
@@ -336,7 +335,6 @@ ul {
 .interface-section-link:hover {
     transform: scale(1.1, 1.1);
     transition: 0.5s ease;
-    color: var(--heading-color);
 }
 
 
@@ -686,7 +684,6 @@ ul {
 }
 
 .footer_tools_list a:hover {
-    color: var(--heading-color);
     transition: 0.5s ease;
 }
 
@@ -799,7 +796,7 @@ ul {
         order: 2;
     }
 
-    .video img{
+    video {
         width: 247px;
         height: 149px;
     }
